@@ -1,0 +1,145 @@
+*{
+  margin:0;
+  padding: 0;
+}
+
+.reshead{
+  text-align: center;
+font-family: sans-serif;
+background-color: black;
+height: 100px;
+
+
+}
+.reshead h1{
+padding: 10px;
+  color: white;
+}
+.reshead h2{
+  color: #FB2576;
+}
+.navi {
+position: relative;
+bottom: 10px;
+padding: 10px;
+  background-color: black;
+}
+.navi li{
+  display:inline;
+  position: relative;
+  left:500px;
+
+}
+.navi a{
+  color:white;
+  text-decoration: none;
+}
+.navi ul li a:hover{
+  background-color: blue;
+}
+.welcome-image{
+  background-image: url('https://images.pexels.com/photos/1907227/pexels-photo-1907227.jpeg');
+  background-attachment: scroll;
+  width:100%;
+  height:300px;
+  background-size:contain;
+  position: relative;
+  bottom: 10px;
+
+}
+.intro{
+  color: #FB2576;
+  text-align: center;
+  padding: 20px;
+}
+.button{
+
+  margin-top: 10px;
+  position: relative;
+  left:600px;
+  top:20px;
+  font-size: 0.877rem;
+  font-weight: bold;
+  background-color: yellow;
+}
+.prices{
+  color: white;
+  position: absolute;
+  left:1160px;
+}
+.spec{
+  color:white;
+  position: relative;
+  left:150px;
+}
+.featured-head{
+  text-align: center;
+  color: #FB2576;
+}
+.whole{
+  background-color: black;
+  padding: 10px;
+  position: relative;
+  bottom:20px;
+}
+.container{
+  display: grid;
+   grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+   margin: 41px;
+
+}
+.row1{
+  background-image: url('https://images.pexels.com/photos/1431305/pexels-photo-1431305.jpeg?auto=compress&cs=tinysrgb&w=600');
+  width:100%;
+  height: 300px;
+  position: relative;
+  right:30px;
+}
+.row2{
+  background-image: url('https://images.pexels.com/photos/12473311/pexels-photo-12473311.jpeg?auto=compress&cs=tinysrgb&w=600');
+  width:100%;
+  height: 300px;
+  background-position: center;
+  background-size: cover;
+
+}
+.row3{
+  background-image:url('https://images.pexels.com/photos/1132558/pexels-photo-1132558.jpeg?auto=compress&cs=tinysrgb&w=600');
+  width:100%;
+  height: 300px;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  left:20px;
+}
+.row1 button{
+  position: relative;
+  top:300px;
+  left:130px;
+  font-size: 0.877rem;
+  font-weight: bold;
+  background-color: yellow;
+}
+.row2 button{
+  position: relative;
+  top:300px;
+  left:130px;
+  font-size: 0.877rem;
+  font-weight: bold;
+  background-color: yellow;
+}
+.row3 button{
+  position: relative;
+  top:300px;
+  left:130px;
+  font-size: 0.877rem;
+  font-weight: bold;
+  background-color: yellow;
+}
+footer{
+  background-color: black;
+  color: white;
+  padding:10px;
+  position:relative;
+  bottom:25px;
+}

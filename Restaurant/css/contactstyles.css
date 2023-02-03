@@ -1,0 +1,43 @@
+*{
+  text-align: center;
+  background-color: #7FE9DE;
+  font-family: sans-serif;
+}
+form{
+  background-color: #7FE9DE;
+  margin:50px auto;
+  padding: 20px;
+  width:50%;
+  box-shadow: 50px 50px 80px white;
+}
+form label{
+  display: block;
+  text-align: left;
+
+}
+form input{
+  display: block;
+  width:96%;
+  border: 1px solid black;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding:10px;
+}
+form select{
+  display: block;
+  width:100%;
+  border: 1px solid black;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding:10px;
+}
+form textarea{
+  display: block;
+  width:96%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+.sub:hover{
+  background-color:  #7FE9DE;
+}
